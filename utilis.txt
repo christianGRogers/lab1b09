@@ -1,0 +1,10 @@
+1 : mv -- --help help.txt
+2 : cat cat-in-1.txt - cat-in-2.txt
+3 : head headtail-in.txt -n -1
+4 : tail headtail-in.txt -n 1
+5 : wc -l headtail-in.txt
+6 : tr [A-Za-z] [N-ZA-Mn-za-m] < rot13.txt > spoiler.txt
+7 : tr -d [u,2]
+8 : tee -a tee-acc.txt | tee tee-out.txt
+9 : yes nonono | head -n 42
+10 : comm -23 menu-new.txt menu-old.txt
